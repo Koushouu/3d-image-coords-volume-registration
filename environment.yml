@@ -1,0 +1,22 @@
+name: environment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter=1.0.0
+  - jupyterlab=3.6.1
+  - napari=0.4.17
+  - napari-3d-ortho-viewer=0.0.1
+  - scikit-image=0.19.3
+  - scipy=1.10.0
+  - transforms3d=0.4.1
+  - urllib3=1.26.14
+  - tifffile=2022.10.10
+  - pip:
+    - neurom==3.2.2
+    - numpy==1.23.1
+    - thin-plate-spline==1.1.0
+    # These are for reading ids files
+    # - python-bioformats==4.0.7 
+    # - python-javabridge==4.0.3
+
